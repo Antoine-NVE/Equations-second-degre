@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+/* Général */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredericka the Great";
+  background: url(../img/bg.jpg) center/cover;
+}
+
+.tableau {
+  background: url(../img/bgtableau.jpg) center/cover;
+  border: 4px solid black;
+  box-shadow: 0px 5px 15px 5px white;
+  width: 90%;
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+/* Formulaire */
+input {
+  margin: 2.5rem 0;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+
+label {
+  color: white;
+}
+
+button {
+  font-family: "Fredericka the Great";
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+#boutonResolution {
+  background: rgb(207, 197, 199);
+}
+
+#boutonEffacer {
+  background: rgb(0, 207, 112);
+}
+
+/* Messages */
+p {
+  height: 20px;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+#messageValeurRacines {
+  margin: 2.5rem 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equations second degré</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="tableau">
+      <!-- Titre et message indiquant si les valeurs sont correctes ou non -->
+      <h1>
+        Résolution d'une équation du Second degré de la forme : aX² + bX + c = 0
+      </h1>
+      <p id="messageErreurs"></p>
+
+      <!-- Récupération des valeurs de l'utilisateur -->
+      <form>
+        <input id="a" type="text" name="a" autocomplete="off" />
+        <label for="a">X² +</label>
+        <input id="b" type="text" name="b" autocomplete="off" />
+        <label for="b">X +</label>
+        <input id="c" type="text" name="c" autocomplete="off" />
+        <label for="c">= 0</label>
+        <br />
+        <button id="boutonResolution">Résolution</button>
+        <button id="boutonEffacer">Effacer le tableau</button>
+      </form>
+
+      <!-- Messages réponses -->
+      <p id="messageDelta"></p>
+      <p id="messageRacines"></p>
+      <p id="messageValeurRacines"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
